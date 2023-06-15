@@ -19,7 +19,7 @@ app.use('/api/admin', verifyToken, adminRoutes)
 app.get('/api', (req, res) => {
     res.json({
         estado: true,
-        msg: "Funciona"
+        msg: "Funciona :)"
     })
 })
 
